@@ -1,0 +1,2 @@
+# Build output: store and check out every byte as-is, no EOL conversion.
+* -text
