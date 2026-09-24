@@ -5,6 +5,10 @@ Infinite capture-and-log agent. It figures out which Azure server is hosting
 each match, measures your real ping to it and logs every match. No Python
 needed.
 
+**Is it safe?** [SAFETY.md](SAFETY.md) explains exactly what it does and
+doesn't do, why Windows warns you about it, and how to check the download
+yourself. The same page is in the zip as `SAFETY.txt`.
+
 ## Get it
 
 Download `Artemis-<version>-win64.zip` from the [Releases](../../releases)

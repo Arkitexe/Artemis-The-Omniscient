@@ -6,8 +6,11 @@ works out which Azure server hosted each match, measures your real ping
 to it, and logs every match so "this match felt off" can be checked
 against numbers later.
 
-It only reads traffic. It doesn't touch the game, change any packets or
-talk to 343/Microsoft for you.
+It only reads traffic. It doesn't touch the game or change any packets,
+it never signs in to anything, and nothing you record leaves your PC.
+
+Wondering if it's safe? SAFETY.txt, next to this file, explains exactly
+what Artemis does and doesn't do, and how to check the download yourself.
 
 
 HOW TO RUN
@@ -34,7 +37,8 @@ REQUIREMENTS
   says it is missing, run MicrosoftEdgeWebview2Setup.exe from this folder
   once and launch again.
 - Internet on first launch: it downloads Microsoft's Azure IP-range list
-  (a few MB) so servers can be mapped to regions. Cached afterwards.
+  (a few MB) from microsoft.com so servers can be mapped to regions, and
+  refreshes it whenever the saved copy is more than two weeks old.
 
 
 WHERE YOUR DATA GOES
